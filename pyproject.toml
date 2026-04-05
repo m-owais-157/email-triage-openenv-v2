@@ -7,7 +7,7 @@ name = "email-triage-openenv"
 version = "0.1.0"
 description = "Smart Email Triage OpenEnv Environment"
 authors = [
-    { name = "Mohammed Owais", email = "example@email.com" }
+    { name = "Mohammed Owais" }
 ]
 dependencies = [
     "fastapi",
@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [tool.openenv]
-entrypoint = "main:app"
+entrypoint = "app.main:app"
