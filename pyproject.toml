@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-start = "app.main:app"
+server = "app.main:app"
 
 [tool.openenv]
 entrypoint = "app.main:app"
